@@ -1,0 +1,44 @@
+
+
+
+
+/*center the title*/
+#title {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: coral;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: green;
+}
+
+/*center the navigation bar, make it bold, black and add some margin at the bottom*/
+.NavBar {
+    list-style-position: inside;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.NavBar a {
+    text-decoration: underline;
+    color: black;
+}
+
+.Intro {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+#pic1 {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+}
