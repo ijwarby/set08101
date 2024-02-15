@@ -37,8 +37,18 @@
     color: black;
 }
 
-#pic1 {
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 10px;
-}
+.news {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #eee;
+  }
+
+  .news > h1, .a1, .a2, .a3{
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+  }
+  
+  .a1, .a2, .a3 {
+    background-color: white;
+  }
