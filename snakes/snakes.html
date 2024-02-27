@@ -19,9 +19,10 @@
         <ul class="NavBar">
           <h1 id="text">Welcome to Serpant Search</h1>
           <p id="mobileTitle">You are using a computer.</p>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="snakes.html">Snakes</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
+          <li><button onclick="myfunction()">Button</button></li>
+          <script src="snakes.js"></script>
           <li><a href="about.html">About</a></li>
         </ul>
       <!--secondset-->
@@ -30,9 +31,14 @@
         <ul class="mobileNavBar">
           <h1 id="mobileTitle">Welcome to Serpant Search</h1>
           <p>You are using a mobile device.</p>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="snakes.html">Snakes</a></li>
-          <li><a href="quiz.html">Quiz</a></li>
+            <li><button onclick="myfunction()">Button</button></li>
+            <script> 
+              function myfunction() {
+                alert("You clicked the button");
+              }
+            </script>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
