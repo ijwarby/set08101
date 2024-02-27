@@ -2,10 +2,8 @@
 .header {
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
-    align-items: center;
     width: auto;
-    height: 70px; /* Adjust this value as needed */
+    height: 20%; /* Adjust this value as needed */
     background-color: #333;
     color: white;
     margin: 0px;
@@ -13,8 +11,8 @@
 
 .wrapper {
     display: flex;
-    margin: 0px;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     height: inherit;
     width: 30%;
     background-color: aliceblue;
@@ -23,19 +21,64 @@
 
 .NavBar {
     display: flex;
+    width: 100%;
     list-style-type: none;
-    padding: auto;
-    margin: auto;
     justify-content: flex-end;
-    font-size: larger;
+    margin: 0;
 }
 
 .NavBar li a {
-    display: inline;
+    display: flex;
     padding: 10px;
     margin: 10px;
     color: white;
     text-decoration: none;
     border: 1px solid black;
     background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.NavBar li a:hover {
+    background-color: #333; /* Change to desired hover color */
+    color: #fff; /* Change text color on hover if needed */
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: fixed; /* Changed from absolute to fixed */
+    background-color: #f9f9f9;
+    width: 100vw; /* Viewport width */
+    height: 100vh; /* Viewport height */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0; /* Align with the left edge of the page */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.dropdown li {
+    width: 50%;
+    height: 100%;
+    list-style-type: none;
+}
+
+.dropdown li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0;
+    background-color: black;
+    transition: background-color 0.3s ease;
 }
