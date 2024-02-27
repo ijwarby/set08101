@@ -1,0 +1,27 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1 ; /* Adjust this to the number of columns you want */
+    padding: auto;
+    margin: 0;
+    justify-content: start;
+}
+.grid-item {
+    background-color: rgba(67, 188, 81, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    margin: 5px;
+    text-align: start
+}
+
+.grid-wrapper {
+    background-color: rgba(67, 188, 81, 0.2);
+    text-align: start;
+    padding: 5px;
+    margin: 0;
+}
+
+#side {
+    padding: 10px;
+    margin: 5px;
+    text-align: start;
+}
