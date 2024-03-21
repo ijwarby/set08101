@@ -9,26 +9,18 @@
     <link rel="stylesheet" href="snakes.css">
     <title>SerpantSearch</title>
   </head>
-  <!--start of body -->
   <body>
-    <!--header is used for main title and display menu options for navigation-->
-    <header>
-      <!--two sets of navigition for device compatibility-->
-      <!--first set-->
-      <nav>
-        <ul class="NavBar">
-          <h1 id="text">Welcome to Serpant Search</h1>
-          <p id="mobileTitle">You are using a computer.</p>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="snakes.html">Snakes</a></li>
-          <li><button onclick="myfunction()">Button</button></li>
-          <script src="snakes.js"></script>
-          <li><a href="about.html">About</a></li>
-        </ul>
+        <nav class="navigation-wrap">
+          <li id="logo"><h1>Serpent Seeker</h1></li>
+          <div class="menu-items">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="snakes.html">Snakes</a></li>
+            <script src="snakes.js"></script>
+            <li><a href="about.html">About</a></li>
+          </div>
+        </nav>
       <!--secondset-->
-      </nav>
-      <nav>
-        <ul class="mobileNavBar">
+        <!-- <ul class="mobilenav">
           <h1 id="mobileTitle">Welcome to Serpant Search</h1>
           <p>You are using a mobile device.</p>
           <li><a href="../index.html">Home</a></li>
@@ -40,27 +32,22 @@
               }
             </script>
           <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </header>
+        </ul> -->
 
-    <main class="home">
-    <section class="introduction">
+    <!-- <div class="introduction">
       <h2> Discover the Enigmatic World of Snakes</h2>
       <p>
         Snakes, captivating and mysterious reptiles, coexist with us, silently sharing our lands and habitats.<br>With their sinuous forms and mesmerizing movements, 
         they weave through the tapestry of our ecosystems, often unseen yet ever-present.<br>
         Delve into their world on <i>Serpant Search</i>and uncover the secrets of these enigmatic creatures as they navigate the diverse landscapes we call home.</p>
-    </section>
+      </div>
     <hr>
-    <section class ="navigation">
       <h2>Image Mapping</h2>
         <p> click on a continent to see what snakes are in that area.</p>
         <img id="image" src="world-map.jpg" alt="World Map" usemap="#worldmap">
         <map name = "worldmap">
           <area shape="rect" coords="80, 87, 147, 133" href="North_America.html" alt="North America ">
-        </map>
-    </section>
+        </map> -->
 
     <section class="recent-news"
     <article>

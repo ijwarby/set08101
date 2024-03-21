@@ -1,3 +1,21 @@
+.navigation  {
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    background: black 40%;
+    list-style-type: none;
+    padding: 0.5%;
+    margin: auto;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1 ; /* Adjust this to the number of columns you want */
