@@ -15,30 +15,38 @@
     font-weight: bold;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1 ; /* Adjust this to the number of columns you want */
-    padding: auto;
-    margin: 0;
-    justify-content: start;
-}
-.grid-item {
-    background-color: rgba(67, 188, 81, 0.2);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 5px;
-    margin: 5px;
-    text-align: start
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto; /* centers the container */
+    max-width: 800px; /* limits the width */
 }
 
-.grid-wrapper {
+.flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(67, 188, 81, 0.2);
-    text-align: start;
-    padding: 5px;
-    margin: 0;
-}
-
-#side {
+    border: 2px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     margin: 5px;
-    text-align: start;
+    width: 100%; /* makes the items take up the full width of the container */
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* makes the wrapper take up the full width of the page */
+    padding: 1em;
+    margin: 0; /* removes the margin */
+}
+
+.intro {
+    padding: 1em;
+    margin: 0 auto; /* centers the intro */
+    max-width: 800px; /* limits the width */
 }
